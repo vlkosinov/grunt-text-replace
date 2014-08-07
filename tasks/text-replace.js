@@ -23,7 +23,8 @@ module.exports = function(grunt) {
         src: this.data.src,
         dest: this.data.dest,
         overwrite: this.data.overwrite,
-        replacements: this.data.replacements
+        replacements: this.data.replacements,
+        replacementsIsFile: this.data.replacementsIsFile
       });
     });
 };
